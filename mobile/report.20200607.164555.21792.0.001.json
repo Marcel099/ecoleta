@@ -116,7 +116,7 @@
         "name": "Wi-Fi",
         "internal": false,
         "mac": "34:23:87:76:e7:4e",
-        "address": "192.168.0.130",
+        "address": "192.168.0.101",
         "netmask": "255.255.255.0",
         "family": "IPv4"
       },
