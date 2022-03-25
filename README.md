@@ -21,7 +21,7 @@ Na sua versão web, o usuário pode cadastrar um ponto de coleta, definir quais 
   <img alt="Página de cadastro de pontos de coleta" title="Página de cadastro de pontos de coleta" src="./assets/screenshots/ecoleta_web_create_point.png" />
 </div>
 
-Já na versão para celulares, o usuário pode pesquisar os pontos de coleta de uma cidade e visualizar a localização deles no mapa, podendo selecionar um deles para ver informações detalhadas. O usuário pode, também, filtrar as instituições pelo tipo de resíduo.
+Já na versão para celulares, o usuário pode pesquisar os pontos de coleta de uma cidade e visualizar a localização deles no mapa, podendo selecionar um deles para ver informações detalhadas. O usuário pode, também, filtrar as instituições pelos tipos de resíduos que a instituição aceita.
 
 <div align="center">
   <img title="Página de cadastro de pontos de coleta" src="./assets/screenshots/ecoleta_mobile_home_page.png" width="30%" />
