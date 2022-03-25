@@ -59,7 +59,7 @@ const Points = () => {
         }
 
         loadPosition()
-    })
+    }, [])
 
     useEffect(() => {
         api.get('items').then(response => {
