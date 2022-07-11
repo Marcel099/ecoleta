@@ -18,6 +18,7 @@ interface Point {
     id: number,
     name: string,
     image: string,
+    image_url: string,
     latitude: number,
     longitude: number,
     // items: {        // até o objeto dentro do objeto tem que se informar o seu formato
@@ -134,7 +135,7 @@ const Points = () => {
                                     <View style={styles.mapMarkerContainer}>
                                         <Image
                                             style={styles.mapMarkerImage}
-                                            source={{uri: point.image}}>
+                                            source={{uri: point.image_url}}>
                                         </Image>
                                         <Text style={styles.mapMarkerTitle}>{point.name}</Text>
                                     </View>
