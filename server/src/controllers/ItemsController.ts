@@ -10,7 +10,7 @@ class ItemsController {
             return {
                 id: id,
                 title: title,
-                image_url: `http://192.168.0.102:3333/uploads/${image}`,
+                image_url: `${process.env.API_URL}/uploads/${image}`,
             };
         })
         return response.json(serializedItems)
