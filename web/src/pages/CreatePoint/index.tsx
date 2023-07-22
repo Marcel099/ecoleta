@@ -2,7 +2,7 @@ import React, { useEffect, useState, ChangeEvent, FormEvent } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Map, TileLayer, Marker } from 'react-leaflet';
-import { LeafletMouseEvent } from 'leaflet';
+import { LatLngTuple, LeafletMouseEvent } from 'leaflet';
 import axios from 'axios';
 
 import logo from './../../assets/logo.svg';
@@ -32,7 +32,8 @@ const CreatePoint = () => {
     const [ufs, setUfs] = useState<string[]>([])
     const [cities, setCities] = useState<string[]>([])
 
-    const [initialPosition, setInitialPosition] = useState<[number, number]>([0, 0])
+    const [initialPosition, setInitialPosition] =
+        useState<LatLngTuple>([0, 0])
 
     const [formData, setFormData] = useState({
         name: '',
@@ -43,7 +44,8 @@ const CreatePoint = () => {
     const [selectedUf, setSelectedUf] = useState<string>('0')
     const [selectedCity, setSelectedCity] = useState<string>('0')
     const [selectedItems, setSelectedItems] = useState<number[]>([])
-    const [selectedPosition, setSelectedPosition] = useState<[number, number]>([0, 0])
+    const [selectedPosition, setSelectedPosition] =
+        useState<LatLngTuple>([0, 0])
     const [selectedFile, setSelectedFile] = useState<File>();
 
     const history = useHistory()
@@ -58,6 +60,7 @@ const CreatePoint = () => {
 
     useEffect(() => {   // Tudo o que for colocado dentro dessa função vai ser executado assim que o componente tiver sido carregado em tela
         api.get('items').then(response => {         // não dá pra usar async await pois o React bloqueia isso
+            console.log({response: response.data})
             setItems(response.data)                   // Então temos que usar promisses
         })
     }, [])
