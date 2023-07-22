@@ -1,12 +1,11 @@
 import path from 'path';
+import 'dotenv/config';
 
-module.exports = {      // infelizmente, o knex não suporta a sintaxe export default
-    client: 'sqlite3',
-    
-    connection: {
-        filename: path.resolve(__dirname, 'src', 'database', 'database.sqlite')
-    },
-    migrations: {       // nem sempre o último param é um arquivo
+module.exports = {
+    client: 'pg',
+    connection: process.env.PG_DATABASE_URL,
+
+    migrations: {
         directory: path.resolve(__dirname, 'src', 'database', 'migrations')
     },
     seeds: {
