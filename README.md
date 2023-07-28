@@ -3,12 +3,13 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Next Level Week #01 🚀 Em construção...  🚧
+	Next Level Week #01 - Ecoleta
 </h4>
 
 <!--ts-->
-   * [Índice](#índice)
-   * [Sobre](#sobre-o-projeto)
+  * [Índice](#índice)
+  * [Sobre](#sobre-o-projeto)
+  * [Licença](#licença)
 <!--te-->
 
 ## Sobre o projeto
@@ -31,3 +32,5 @@ Já na versão para celulares, o usuário pode pesquisar os pontos de coleta de 
 
 Esse software foi desenvolvido durante a primeira edição do evento Next Level Week proporcionado pela empresa RocketSeat.
 
+## Licença
+Este projeto está sob a licença MIT. Para maiores detalhes acesse o <a href="./LICENSE.md">arquivo de licença</a>.
