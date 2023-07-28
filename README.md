@@ -61,5 +61,9 @@ O sistema foi desenvolvido em TypeScript. É composto de 3 partes:
 
 O maior diferencial desse projeto é o uso de bibliotecas de mapas.
 
+Se desejar explorar as rotas do servidor HTTP Node desenvolvido para esse sistema, poderá fazer isso através do [Insomnia](https://insomnia.rest/).
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=NLW%20%2301%20-%20Ecoleta&uri=https%3A%2F%2Fgithub.com%2Fmarcel099%2Frs-nlw-01-ecoleta%2Fblob%2Fmain%2Fassets%2Finsomnia_collection.json)
+
 ## Licença
 Este projeto está sob a licença MIT. Para maiores detalhes acesse o <a href="./LICENSE.md">arquivo de licença</a>.
