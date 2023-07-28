@@ -6,6 +6,15 @@
 	Next Level Week #01 - Ecoleta
 </h4>
 
+<div align="center">
+  <img src="https://img.shields.io/github/repo-size/marcel099/rs-nlw-01-ecoleta.svg">
+  <img src="https://img.shields.io/github/last-commit/marcel099/rs-nlw-01-ecoleta.svg">
+  <img src="https://img.shields.io/github/issues/marcel099/rs-nlw-01-ecoleta.svg">
+  <img src="https://img.shields.io/github/issues-closed/marcel099/rs-nlw-01-ecoleta.svg">
+  <img src="https://img.shields.io/github/license/marcel099/rs-nlw-01-ecoleta.svg">
+  <img src="https://img.shields.io/github/stars/marcel099/rs-nlw-01-ecoleta.svg?style=social">
+</div>
+
 * [Índice](#índice)
 * [Sobre](#sobre-o-projeto)
   * [Conceito do projeto](#conceito-do-projeto)
