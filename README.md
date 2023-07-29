@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Página inicial da versão Web da aplicação Ecoleta" title="Landing Page do Ecoleta" src="./assets/screenshots/ecoleta_web_landing_page.png" />
+  <img alt="Página inicial da versão Web da aplicação Ecoleta" title="Landing Page do Ecoleta" src="./assets/screenshots/banner.png" />
 </h1>
 
 <h4 align="center"> 
@@ -20,6 +20,7 @@
   * [Conceito do projeto](#conceito-do-projeto)
   * [Tecnologias](#principais-tecnologias-utilizadas)
 * [Instalação local](#instalação-local)
+* [Créditos](#créditos)
 * [Licença](#licença)
 
 ## Sobre o projeto
@@ -78,6 +79,10 @@ Se desejar explorar as rotas do servidor HTTP Node desenvolvido para esse sistem
 ## Instalação local
 
 Passos para atingir isso pode ser conferido <a href="./INSTALLATION.md">neste arquivo</a>.
+
+## Créditos
+
+Credito a elaboração do modelo do banner deste documento e do banner social ao autor desconhecido desta [postagem](https://mckups.com/pixel-4-and-pixelbook-go-mockup/) no site [Mckups](https://mckups.com). Foi adaptado por mim de acordo com as características deste projeto.
 
 ## Licença
 Este projeto está sob a licença MIT. Para maiores detalhes acesse o <a href="./LICENSE.md">arquivo de licença</a>.
