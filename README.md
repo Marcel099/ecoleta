@@ -63,6 +63,7 @@ O sistema foi desenvolvido em TypeScript. É composto de 3 partes:
   - [React](https://react.dev/)
   - [React Router](https://reactrouter.com/)
   - [React Leaflet](https://react-leaflet.js.org/)
+  - [React Dropzone](https://react-dropzone.js.org/)
 - Front-End Mobile
   - [React Native](https://reactnative.dev/)
   - [Expo](https://expo.dev/)
