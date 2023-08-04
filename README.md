@@ -16,14 +16,14 @@
 </div>
 
 * [Índice](#índice)
-* [Sobre](#sobre-o-projeto)
+* [Sobre](#sobre)
   * [Conceito do projeto](#conceito-do-projeto)
   * [Tecnologias](#principais-tecnologias-utilizadas)
 * [Instalação local](#instalação-local)
 * [Créditos](#créditos)
 * [Licença](#licença)
 
-## Sobre o projeto
+## Sobre
 
 O projeto foi desenvolvido durante a primeira edição do evento Next Level Week proporcionado pela empresa [Rocketseat](https://rocketseat.com.br/). Baseou-se em um layout elaborado no Figma.
 
